@@ -1,0 +1,54 @@
+useDynLib(MasterBayes, .registration = TRUE)
+import(genetics)
+import(coda)
+import(gtools)
+import(kinship2)
+importFrom(methods, as)
+importFrom(stats, model.matrix, na.omit, optim, rbinom, dnorm)
+export(
+  MCMCped,
+  mismatches,
+  MLE.beta,
+  MLE.popsize,
+  MLE.ped, 
+  PdataPed,
+  is.PdataPed,
+  beta.loglik,
+  popsize.loglik,
+  fillX.G,
+  GdataPed,
+  is.GdataPed,
+  genotype.list,
+  genotypeD,
+  is.genotypeD,
+  getXlist,
+  modeP,
+  modeG,
+  priorPed,
+  is.priorPed,
+  reordXlist,
+  simgenotypes,
+  simpedigree,
+  startPed,
+  is.startPed,
+  tunePed,
+  is.tunePed,
+  varPed,
+#  getPost,
+#  GtoC,
+#  ErrorCheck,
+#  getsPandtP,
+  legalG,
+  orderPed,
+  extractA,
+  post.pairs,
+  autocorrP,
+  insertPed,
+  consensusG 
+) 
+S3method(summary, genotypeD)
+S3method(print, genotypeD)
+S3method('[', genotypeD)
+S3method('[<-', genotypeD)
+
+

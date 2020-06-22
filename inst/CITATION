@@ -1,0 +1,14 @@
+citHeader("To cite package MasterBayes in publications use:")
+
+citEntry(entry="Article",
+         title = "Towards unbiased parentage assignment: combining genetic, behavioural and spatial data in a Bayesian framework",
+         author = personList(as.person("J.D. Hadfield"), as.person("D.S. Richardson"), as.person("T. Burke")),
+         language = "English",
+         year = 2006,
+         journal      = "Molecular Ecology",
+         volume       = 15,
+         number       = 12,
+         pages        = 3715-31,
+         month        = 1,
+textVersion = paste("Hadfield J.D., Richardson D.S. & Burke T. (2009)",
+                    "Towards unbiased parentage assignment: combining genetic, behavioural and spatial data in a Bayesian framework"))
