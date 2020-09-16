@@ -4,7 +4,6 @@
 \title{Seychelles Warbler Genotypes}
 \description{Genetype data collected by David Richardson from Cousin Island in 1999.  
 }
-\usage{WarblerG}
 \format{a data frame with 307 rows and 29 columns. The first column are the unique idenitifiers for each bird, and the following columns are genotype data.  Adjacent columns beolng to the same locus.}
 \source{Richardson D.S.}
 \references{

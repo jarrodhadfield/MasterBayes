@@ -20,7 +20,6 @@ PdataPed(formula, data=NULL, id=data$id, sex=data$sex,
   \item{timevar}{an optional vector indicating cohorts for multigenerational pedigree reconstruction}
   \item{USdam}{logical or character; if \code{TRUE} a single undiferentaited population of unsampled females exists. If \code{USdam} is a character vector it must have the same length as \code{id} with factor levels representing sub-populations (in time or space) over which the number of unsampled females vary.} 
   \item{USsire}{logical or character; if \code{TRUE} a single undiferentaited population of unsampled males exists. If \code{USsire} is a character vector it must have the same length as \code{id} with factor levels representing sub-populations (in time or space) over which the number of unsampled males vary.}  
-  \item{...}{further arguments to be passed}
 }
 \value{list containing the arguments passed}
 \details{

@@ -9,7 +9,6 @@ genotypeD(a1, locus=NULL)
 \arguments{
   \item{a1}{vector of scored genotypes (0 or 1) for dominant markers}
   \item{locus}{object of class locus, gene, or marker, holding information about the source of this genotype.}
-  \item{...}{further arguments to be passed}
 }
 \author{Jarrod Hadfield \email{j.hadfield@ed.ac.uk}}
 \seealso{\code{genotype}, \code{summary.genotypeD}}
