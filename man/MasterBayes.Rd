@@ -61,7 +61,7 @@ where \eqn{\bf{\hat{p}}}{p} are vectors of linear predictors for the unsampled \
 
 }
 \references{
-Elston, R. C. \& Stewart, J. Human Heredity (1971) 21 523-542
+Elston, R. C. and Stewart, J. Human Heredity (1971) 21 523-542
 Emery, A. M. \emph{et.al} Molecular Ecology (2001) 10 1265-1278
 Gelman, A. \emph{et.al} Bayesian Data Analysis \emph{Edition II} (2004) Chapman and Hall
 Hadfield J.D. \emph{et al} (2006) Molecular Ecology 15 3715-31
